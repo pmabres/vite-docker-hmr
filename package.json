@@ -1,0 +1,50 @@
+{
+  "name": "react-web-sample",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite -d --logLevel info",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@nabla/vite-plugin-eslint": "^1.5.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "husky": "^8.0.3",
+    "json": "^11.0.0",
+    "lint-staged": "^13.2.3",
+    "postcss": "^8.4.24",
+    "postcss-import": "^15.1.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.63.6",
+    "storybook": "^7.0.25",
+    "tailwindcss": "^3.3.2",
+    "tailwindcss-animate": "^1.0.6",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vite-plugin-checker": "^0.6.1"
+  }
+}

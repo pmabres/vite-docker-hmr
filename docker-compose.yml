@@ -1,0 +1,19 @@
+services:
+  frontend:
+    restart: always
+    command : sh -c "npm start"
+    container_name: frontend
+    # CHOKIDAR polling can be enabled either from vite config or as an environment variable.
+    # environment:
+    #   - CHOKIDAR_USEPOLLING=true
+    #   - CHOKIDAR_INTERVAL=100
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    build:
+      context: .
+      dockerfile: Dockerfile
+      no_cache: true
+    ports:
+      - "3000:3000"
+      - "3010:3010"
