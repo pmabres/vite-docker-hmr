@@ -6,10 +6,10 @@ out of the box, testing and developing with vite works fine, HMR works fast and 
 
 ## Requirements
 
-MacOS Ventura: 13.4
-Docker version 24.0.5
-(I'm using colima): colima version 0.5.5
-Docker Compose version 2.20.2
+- MacOS Ventura: 13.4
+- Docker version 24.0.5
+- (I'm using colima): colima version 0.5.5
+- Docker Compose version 2.20.2
 
 ## Setup
 
